@@ -23,6 +23,19 @@ function Home() {
 
     useEffect(() => {
         getMovies()
+        const requestOptions = {
+            method: "GET",
+            redirect: "follow",
+        };
+
+        fetch("all", requestOptions)
+            .then(response => response.json())
+            .then((result) => console.log(result.Data))
+            // .then((data) => console.log(data))
+            .catch((error) => console.log("error", error));
+
+
+
     }, [])
 
     return ( 
