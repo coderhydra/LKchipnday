@@ -1,8 +1,8 @@
+/* eslint-disable */
 import React from 'react';
 
 import {Container, Menu, Search, User } from "./styles";
 import logoPrime from "../../assets/logo-prime.svg";
-import logoUser from "../../assets/user.png";
 
 const Header = () =>(
     <Container>
@@ -22,11 +22,11 @@ const Header = () =>(
                 <input type="text" placeholder="Busca" />
             </Search>
             
-            <User>
-                <img className="user-logo" src={logoUser} alt="logo" />
-                <span>Wellisson Ribeiro</span>
-                <i className="fa fa-caret-down arrow-icon" />
-            </User>
+            {/*<User>*/}
+            {/*    <img className="user-logo" src={logoUser} alt="logo" />*/}
+            {/*    <span>Wellisson Ribeiro</span>*/}
+            {/*    <i className="fa fa-caret-down arrow-icon" />*/}
+            {/*</User>*/}
         </div>
     </Container>
 );

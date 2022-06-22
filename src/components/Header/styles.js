@@ -56,7 +56,7 @@ export const Search = styled.div`
 	margin-right: 15px;
 	display: flex;
 	align-items: center;
-	width: 250px;
+	width: 100%;
 	height: 40px;
 	background: url(${SearchIcon}) no-repeat 7px center;
 	background-size: 20px 20px;
